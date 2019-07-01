@@ -1,0 +1,69 @@
+/* 整体的布局flex */
+/* border-top: 1rpx solid #999;
+   border-bottom: 1rpx solid #999; 
+*/
+.tmpContainer {
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+ 
+  margin-top: 20rpx;
+}
+
+/* 头像和日期 */ 
+.avatar_date {
+  margin-top: 10rpx;
+  padding: 10rpx;
+}
+.avatar_date image {
+  width: 60rpx;
+  height: 60rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.avatar_date text {
+  font-size: 32rpx;
+}
+
+/* 标题 */
+.tmpTitle {
+  margin-left: 10rpx;
+  font-size: 40rpx;
+  font-weight: 700;
+  margin-bottom: 10rpx;
+}
+
+/* 内容的图片 */
+.contentImg {
+  width: 100%;
+  height: 460rpx;
+}
+
+/* 内容文字 */
+.tmpContent {
+  padding: 10rpx;
+  font-size: 34rpx;
+  text-indent: 64rpx;
+}
+
+/* 收藏和查看 */
+.love_watch {
+  margin-left: 10rpx;
+  margin-bottom: 10rpx;
+}
+.love_watch image {
+  width: 32rpx;
+  height: 32rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.love_watch text {
+  margin-right: 28rpx;
+  font-size: 20rpx;
+}
+
+.line {
+  width: 100%;
+  height: 2rpx;
+  background: #999;
+}

@@ -15,10 +15,10 @@
     <view class='collection_share'>
       <image wx:if="{{!isCollected}}" catchtap='handleCollection' src='/images/icon/collection-anti.png'></image>
       <image wx:if="{{isCollected}}" catchtap='handleCollection' src='/images/icon/collection.png'></image>
-      <image src='/images/icon/share.png'></image>
+      <image catchtap='handleShare' src='/images/icon/share.png'></image>
     </view>
     <view class='line'></view>
   </view>
-  <button>转发此文章</button>
+  <button open-type='share'>转发此文章</button>
   <text class='content'>{{detailObj.detail_content}} === {{detailObj.music.title}}</text>
 </view>

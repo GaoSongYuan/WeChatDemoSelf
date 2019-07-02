@@ -5,13 +5,13 @@ let datas = require('../../datas/list-data.js');
 Page({
 
   /**
-   * 页面的初始数据
+   * 页面的初始数据  
    */
   data: {
     listArr: []
   },
 
-  // 点击模板，跳转到detail详情页
+  // 点击模板，跳转到detail详情页  
   toDetail : function (event) {
     // 获取点击跳转对应的下标
     let index = event.currentTarget.dataset.indexhenggang;

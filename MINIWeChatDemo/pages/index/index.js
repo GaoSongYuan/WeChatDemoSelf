@@ -13,7 +13,7 @@ Page({
   handleView() {
     console.log("点击了view");
     // 点击跳转到list页面
-    wx.navigateTo({
+    wx.switchTab({
       // url: '../list/list', // 两种方式均可
       url: '/pages/list/list',
     })

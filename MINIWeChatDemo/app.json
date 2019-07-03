@@ -1,11 +1,10 @@
 {
   "pages": [
-"pages/movies/movies",
-
+    "pages/index/index",
+    "pages/movies/movies",
     "pages/list/list",
     "pages/detail/detail",
-    "pages/index/index"
-    
+    "pages/movieDetail/movieDetail"
   ],
   "window": {
     "navigationBarBackgroundColor": "#489B81",
@@ -17,8 +16,8 @@
       {
         "pagePath": "pages/list/list",
         "text": "文与字",
-        "iconPath" : "/images/tab/yuedu.png",
-        "selectedIconPath" : "/images/tab/yuedu_hl.png"
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": "/images/tab/yuedu_hl.png"
       },
       {
         "pagePath": "pages/movies/movies",
@@ -27,7 +26,7 @@
         "selectedIconPath": "/images/tab/dianying_hl.png"
       }
     ],
-    "color" :"#aaa",
+    "color": "#aaa",
     "selectedColor": "#111"
   },
   "sitemapLocation": "sitemap.json"

@@ -1,1 +1,32 @@
 /* pages/classic/classic.wxss */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content:flex-start; /* 对齐方向 主轴上的对齐方式 */
+  align-items: flex-start; /* 交叉轴上的对齐方式 */
+  flex-wrap: wrap; /* 换行 */
+
+  height: 200px;
+  background-color: #eeeeee;
+}
+
+.chunk {
+  width: 150px;
+  height: 100px;
+}
+
+.color1 {
+  background-color: aqua;
+  font-size: 10px;
+}
+
+.color2 {
+  background-color: blue;
+  font-size: 20px;
+}
+
+.color3 {
+  background-color: greenyellow;
+  font-size: 30px;
+}

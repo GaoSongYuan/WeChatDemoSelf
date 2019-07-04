@@ -3,9 +3,9 @@
     "pages/classic/classic"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#ffff00",
+    "navigationBarBackgroundColor": "#white",
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "林间有风",
+    "navigationBarTitleText": "Gsony",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
     "enablePullDownRefresh": false

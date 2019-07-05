@@ -1,6 +1,23 @@
 /* components/like/index.wxss */
 
 .container {
+  display: inline-flex; /* 宽度可以自适应，消除了块状 */
+  flex-direction: row;
+  padding: 10rpx;
+}
+
+.container image{
   width: 32rpx;
   height: 28rpx;
+}
+
+.container text {
+  font-size: 24rpx;
+  font-weight: 200;
+  line-height: 24rpx; /* 行高，可以取消文字上下的空白 */
+  color: #bbbbbb;
+
+  position: relative;
+  bottom: 10rpx;
+  left: 6rpx;
 }

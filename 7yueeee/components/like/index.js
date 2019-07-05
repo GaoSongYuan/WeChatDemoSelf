@@ -36,6 +36,6 @@ Component({
         count : count,
         like : !like
       })
-    }
+    } 
   }
 })
